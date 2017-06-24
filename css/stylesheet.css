@@ -1,0 +1,238 @@
+#main-gray {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(35, 35, 35, 0.5);
+}
+
+/* Home "Page" */
+#top-bg {
+	height: 100%;
+	width: 100%;
+	background: url(../img/city.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#main-page-container {
+	width: 50%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main-page-text {
+	/*Centering*/
+	text-align: center;
+	position: relative;
+    top: 20%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+    /*Style*/
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 50px;
+}
+
+
+.main-page-title {
+	font-size: 80px;
+}
+
+#continue-button-container {
+	width: 15%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+	border-radius: 15px;
+	background: #839496;
+
+	-webkit-animation-duration: 2s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-duration: 2s;
+    -moz-animation-delay: 6s;
+    -ms-animation-duration: 2s;
+    -ms-animation-delay: 6s;
+    -o-animation-duration: 2s;
+    -o-animation-delay: 6s;
+}
+
+/* About "Page" */
+#about {
+	height: 100%;
+	width: 100%;
+	background: url(../img/city2.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#about-me-container {
+	height: 90%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 50px;
+
+    top: 20%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+	/*Pulse Animation*/
+	-webkit-animation-duration: 10s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-duration: 10s;
+    -moz-animation-delay: 0s;
+    -ms-animation-duration: 10s;
+    -ms-animation-delay: 0s;
+    -o-animation-duration: 10s;
+    -o-animation-delay: 0s;
+}
+
+.about-me-title {
+	font-size: 60px;
+}
+
+.about-me-text {
+	/*Centering*/
+	text-align: center;
+	position: relative;
+    top: 50%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+    /*Style*/
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+#about-me-continue {
+	text-align: center;
+	width: 15%;
+	border: 2px solid;
+	border-radius: 15px;
+	background: #839496;
+	float: right;
+	margin-right: 3%;
+}
+
+/* My Stuff "Page" */
+#stuff {
+	height: 100%;
+	width: 100%;
+	background: url(../img/city3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#stuff-container {
+	height: 100%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3%;
+	text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 50px;
+
+    top: 500%; 
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+	/*Pulse Animation*/
+	-webkit-animation-duration: 10s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-duration: 10s;
+    -moz-animation-delay: 0s;
+    -ms-animation-duration: 10s;
+    -ms-animation-delay: 0s;
+    -o-animation-duration: 10s;
+    -o-animation-delay: 0s;
+}
+
+.box1 {
+	height: 25%;
+	background: url(../img/my-stuff-1.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.box2 {
+	height: 25%;
+	background: url(../img/placeholder.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.box3 {
+	height: 25%;
+	background: url(../img/placeholder.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.box4 {
+	height: 25%;
+	background: url(../img/placeholder.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.box5 {
+	height: 25%;
+	background: url(../img/placeholder.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.box6 {
+	height: 25%;
+	background: url(../img/placeholder.png); 
+	background-size: cover;
+	background-position: center center;
+}
+
+.portfolio-item {
+	width: 110%;
+	height: 100%;
+	background: rgba(35, 35, 35, 0.5);
+	margin-left: -5%;
+}
+
+.portfolio-item:hover {
+	opacity: 0.6;
+}
+
+/* Contact "Page" */
+#contact {
+	height: 100%;
+	width: 100%;
+	background: url(../img/city4.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.contact-title {
+	/*Centering*/
+	text-align: center;
+	position: relative;
+	padding-top: 3%;
+
+    /*Style*/
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    font-size: 70px;
+}
